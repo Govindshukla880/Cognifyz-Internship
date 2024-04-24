@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Button Colour Change -->
+
+    <div class="buttton">
+      <button class="btn">Click Here to change colour</button>
+    </div>
+
+    <!-- Display a Greeting message based on the current time -->
+
+    <div class="container">
+      <div class="greet">DEMO TEXT</div>
+    </div>
+
+    <!-- Basic calculator that adds two numbers -->
+    <div class="calculator">
+
+      <div class="heading">
+        <h1>Addition of Two Number</h1>
+      </div>
+
+      <div class="detail">
+        <div class="firstnumber">
+          <label for="firstnum" class="first">Enter first number : </label>
+        <input type="number" id="firstnum" class="firstnum" placeholder="Enter Here">
+        </div>
+        <div class="secondnumber">
+          <label for="secondnum" class="second">Enter second number : </label>
+        <input type="number" id="secondnum" class="secondnum" placeholder="Enter Here">
+        </div>
+      </div>
+
+      <div class="sum">
+        <button onclick="func1()">Calculate</button>
+      </div>
+
+      <div class="result">
+        <h2 id="result">Result:</h2>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
