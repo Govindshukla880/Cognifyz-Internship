@@ -21,7 +21,7 @@ let greeting =
         ? "Good Morning"
         : timeNow>=12 && timeNow < 18 
         ? "Good Afternoon"
-        :"Good Evevning";
+        :"Good Evening";
 console.log(greeting);
 greet.innerHTML = `<h1>${greeting}</h1>`;
 
